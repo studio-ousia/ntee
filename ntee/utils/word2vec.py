@@ -107,7 +107,7 @@ def train(corpus_file, out_file, mode, dim_size, window, min_count,
         entity_embedding=entity_embedding,
         vocab=vocab,
     )
-    joblib.dump(ret, out_file + '.joblib', compress=False)
+    joblib.dump(ret, out_file, compress=False)
 
 
 def _process_page(page):
