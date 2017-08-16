@@ -111,7 +111,7 @@ Now, we can start to train our NTEE embeddings.
 The training takes approximately six days on NVIDIA K80 GPU.
 
 ```bash
-% ntee train_model dbpedia_abstract.db entity_db vocab --word2vec=word2vec_sg_300.joblib ntee_sentence.joblib
+% ntee train_model dbpedia_abstract.db entity_db vocab --word2vec=word2vec_sg_300.joblib ntee_paragraph.joblib
 ```
 
 ## Reference
